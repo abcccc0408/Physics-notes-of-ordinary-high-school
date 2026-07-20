@@ -6,7 +6,7 @@
 \setlength{\parskip}{0em}
 \usepackage{amsmath,mathtools,amssymb,geometry,wrapfig,graphicx,empheq,pifont,enumitem,upgreek, subfig}
 \renewcommand{\baselinestretch}{1.64}
-\geometry{left=1.0cm,right=0.9cm,bottom=1.9cm,top=2.0cm}
+\geometry{left=1.6cm,right=1.4cm,bottom=2.2cm,top=2.2cm}
 \setenumerate[1]{itemsep=1pt,partopsep=0pt,parsep=\parskip,topsep=3pt}
 \setitemize[1]{itemsep=1pt,partopsep=0pt,parsep=\parskip,topsep=3pt}
 
@@ -1880,13 +1880,12 @@ $$l=\sqrt{x^2+y^2}=\sqrt{\left(v_0t\right)^2+\left(\frac{1}{2}gt^2\right)^2}.$$
     求证: 做平抛运动的物体, 在任意时刻速度$v$的反向延长线, 总是通过此刻水平位移的中点.
 \end{example}
 
-\begin{wrapfigure}[12]{o}{0.35\textwidth}
-    \begin{centering}
+\begin{figure}[htbp]
+    \centering
 	\includegraphics[scale=0.3]{pic/6-1-1.pdf}
     \caption{例\ref{平抛运动例题1} 题图}
 	\label{平抛运动例1题图}
-    \end{centering}
-\end{wrapfigure}
+\end{figure}
 
 \textbf{已知}\bre 如图 \ref{平抛运动例1题图} 所示, 做平抛运动的物体运动到$P$点时, 其速度为$v$, 位移为$OP$, 水平位移为$OA$.
 $PM$是$v$的反向延长线.
@@ -1955,7 +1954,7 @@ $v_y^2 = 2gh$是辅助方程.}
 
 在分析具体问题时, 可根据水平方向和竖直方向的运动规律分别列式, 再合成所需的物理量.
 
-\begin{figure}
+\begin{figure}[htbp]
 	\begin{centering}
         \includegraphics[width=0.1\textwidth]{pic/pic4.png}
         \caption{例 \ref{例题飞镖} 题图}
@@ -2777,9 +2776,9 @@ $$mg = m\frac{v^2}{R}.$$
 
 \subsection{卫星的变轨}
 
-\begin{wrapfigure}{o}{6cm}
+\begin{wrapfigure}{o}{0.30\textwidth}
 	\centering
-	\includegraphics[width=0.28\textwidth]{pic/pic13.pdf}
+	\includegraphics[width=0.20\textwidth]{pic/pic13.pdf}
     \caption{卫星的变轨问题}
 	\label{fic13}
 \end{wrapfigure}
@@ -3260,7 +3259,6 @@ $$v_{0y} = v_0\sin \theta.$$ $\theta$越大, 则竖直方向的分速度越大, 
 
 \section{功率与交通工具的启动}
 
-
 本节我们将讨论机车以恒定功率或者恒定加速度启动时的运动特点.
 
 质量为$m$的机车启动时做直线运动, 受到的阻力$F_\mathrm{f}$恒定.
@@ -3277,7 +3275,7 @@ $$v_{0y} = v_0\sin \theta.$$ $\theta$越大, 则竖直方向的分速度越大, 
 \end{equation}
 
 以上两个关系式反映了功率、牵引力和速度之间的联系. 下面分别分析,
-机车启动时发动机功率$P$恒定的情形.
+机车启动时发动机功率$P$恒定和加速度$a$恒定的情形.
 
 \begin{figure}[bthp]
 \centering
@@ -3333,7 +3331,7 @@ $$P_0t_0 - F_\mathrm{f}x = \frac12 m v_\mathrm{max}^2 - 0.$$
 \subsection*{恒定加速度启动过程}
 
 当机车以恒定加速度$a_1$启动时, 机车将做匀加速直线运动. 因为 $$F - F_\mathrm{f} = ma_1, $$ 且
-阻力$F_\mathrm{f}$是定值, 所以当加速度恒为$a_1$时, 牵引力$F$也保持不变.
+阻力$F_\mathrm{f}$是定值, 所以当加速度恒为$a_1$时, 牵引力$F$也保持不变 (下文中用$F_1$表示).
 
 根据(\ref{机车启动功率})式, 随着速率$v$的增大, 发动机的功率$P$也持续增加. 但考虑到
 $P$不可能无限增加, 而是有一个额定功率$P_\mathrm{max}$, 因此机车以恒定加速度
@@ -3342,7 +3340,7 @@ $P$不可能无限增加, 而是有一个额定功率$P_\mathrm{max}$, 因此机
 {\kaishu 还需要分析机车进入恒定功率状态时的速度, 并判断这个速度与最大速度的关系.}
 
 图\ref{机车启动2} 是质量为$m$的机车以恒定加速度$a_1$启动的$v$-$t$图像, 直线$OA$是机车以加速度$a_1$做
-匀加速直线运动的$v$-$t$图线, 其牵引力$F$恒定不变; 在$A$点处, 机车达到额定功率$P_\mathrm{max}$.
+匀加速直线运动的$v$-$t$图线, 其牵引力恒为$F_1$不变; 在$A$点处, 机车达到额定功率$P_\mathrm{max}$.
 机车的匀加速运动结束于$A$点, 此时机车的速率为$v_1$, 并且有
 $$F_1 - F_\mathrm{f} = ma_1,$$ $$P_\mathrm{max} = F_1v_1.$$
 由此解得$$v_1 = \frac{P_\mathrm{max}}{ma_1+F_\mathrm{f}}.$$
@@ -3540,7 +3538,7 @@ $$mgh\approx \frac12mv_B^2-\frac12mv_A^2.$$
 
 {\kaishu 能量守恒并不意味着一切能量转化过程都可以自发反向进行.}
 
-生活经验告诉我们, 这种过程不会自发发生. 能量从一种形式转化为另一种形式时,
+能量从一种形式转化为另一种形式时,
 一部分能量常常转化为内能并分散到周围环境中, 使它难以再被充分利用, 这种现象称为能量的耗散.
 能量耗散体现了宏观自然过程的方向性.
 
@@ -5121,13 +5119,19 @@ $U=Ed$ 可知, 两板间电势差$U$增大, 电容器正极板电势高于电阻
 
 \subsection{电容器的动态分析}
 
-\begin{wrapfigure}{o}{5cm}
-    \flushright
-    \includegraphics[width=0.27\textwidth]{pic/1.8-3.pdf}
-    \caption{电容器的动态分析}
+\begin{figure}[htbp]
+\subfloat[电容器接在电路中]{
+	\includegraphics[width=0.3\textwidth]{pic/1.8-3.pdf}
     \label{1.8-3}
-\end{wrapfigure}
+}
+\subfloat[电容器从电路中取出]{
+	\includegraphics[width=0.3\textwidth]{pic/1.8-4.pdf}
+    \label{1.8-4}
+}
+	\caption{电容器的动态分析}
+    \label{none}
 
+\end{figure}
 
 将电容为\(C\), 两板间距为\(d\)的平行板电容器接在
 电路中, 电源提供的电压恒为$U$.
@@ -5145,14 +5149,6 @@ $$U_{AM} = U - U_{MB} = U - \varphi_M.$$
 由此可得$M$点的电势
 $$\varphi_M = U - U_{AM} = U - Ed_{AM}.$$
 因为$U$不变, $E$和$d_{AM}$都减小了, 所以$M$点的电势增加.
-
-
-\begin{wrapfigure}{o}{5cm}
-    \flushright
-    \includegraphics[width=0.27\textwidth]{pic/1.8-4.pdf}
-    \caption{电容器的动态分析}
-    \label{1.8-4}
-\end{wrapfigure}
 
 现在, 我们把电容器从电路中取出, 仍把下极板接地(图 \ref{1.8-4}). $A$板带有电荷量为$Q$的电荷.
 
